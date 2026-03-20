@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zoobzio/clockz"
+	"github.com/zoobz-io/clockz"
 )
 
 func TestSlidingWindow_BasicOperation(t *testing.T) {

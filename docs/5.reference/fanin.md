@@ -23,7 +23,7 @@ FanIn combines multiple streams into one, useful for aggregating data from multi
 ```go
 import (
     "context"
-    "github.com/zoobzio/streamz"
+    "github.com/zoobz-io/streamz"
 )
 
 // Merge three channels into one

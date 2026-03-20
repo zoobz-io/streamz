@@ -24,7 +24,7 @@ Tumbling windows divide a stream into consecutive, non-overlapping time periods.
 import (
     "context"
     "time"
-    "github.com/zoobzio/streamz"
+    "github.com/zoobz-io/streamz"
 )
 
 // Create 1-minute tumbling windows

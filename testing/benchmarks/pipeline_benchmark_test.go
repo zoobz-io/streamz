@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zoobzio/clockz"
+	"github.com/zoobz-io/clockz"
 
-	streamz "github.com/zoobzio/streamz"
+	streamz "github.com/zoobz-io/streamz"
 )
 
 // BenchmarkPipeline_FanInFanOut benchmarks a FanIn->FanOut pipeline.

@@ -24,7 +24,7 @@ Debounce waits for a pause in the input stream before emitting the most recent i
 import (
     "context"
     "time"
-    "github.com/zoobzio/streamz"
+    "github.com/zoobz-io/streamz"
 )
 
 // Wait for 500ms of quiet before emitting

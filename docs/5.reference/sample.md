@@ -23,7 +23,7 @@ Sample uses probability-based selection to pass through a percentage of items fr
 ```go
 import (
     "context"
-    "github.com/zoobzio/streamz"
+    "github.com/zoobz-io/streamz"
 )
 
 // Sample 10% of items

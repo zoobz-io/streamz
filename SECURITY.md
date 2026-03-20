@@ -20,7 +20,7 @@ We take the security of streamz seriously. If you have discovered a security vul
 Instead, please report them via one of the following methods:
 
 1. **GitHub Security Advisories** (Preferred)
-   - Go to the [Security tab](https://github.com/zoobzio/streamz/security) of this repository
+   - Go to the [Security tab](https://github.com/zoobz-io/streamz/security) of this repository
    - Click "Report a vulnerability"
    - Fill out the form with details about the vulnerability
 
@@ -58,7 +58,7 @@ When using streamz in your applications, we recommend:
 
 1. **Keep Dependencies Updated**
    ```bash
-   go get -u github.com/zoobzio/streamz
+   go get -u github.com/zoobz-io/streamz
    ```
 
 2. **Use Context Properly**

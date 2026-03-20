@@ -24,7 +24,7 @@ Tap executes a side effect function for each item while passing the items throug
 import (
     "context"
     "log"
-    "github.com/zoobzio/streamz"
+    "github.com/zoobz-io/streamz"
 )
 
 // Log items as they pass through

@@ -23,7 +23,7 @@ Throttle ensures that items flow through the stream at a controlled rate, preven
 ```go
 import (
     "context"
-    "github.com/zoobzio/streamz"
+    "github.com/zoobz-io/streamz"
 )
 
 // Limit to 100 items per second

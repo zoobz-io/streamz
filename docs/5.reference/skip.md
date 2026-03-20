@@ -23,7 +23,7 @@ Skip is useful when you need to ignore initial items in a stream, such as header
 ```go
 import (
     "context"
-    "github.com/zoobzio/streamz"
+    "github.com/zoobz-io/streamz"
 )
 
 // Skip first 5 items

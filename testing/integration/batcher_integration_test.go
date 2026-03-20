@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zoobzio/clockz"
+	"github.com/zoobz-io/clockz"
 
-	streamz "github.com/zoobzio/streamz"
-	testinghelpers "github.com/zoobzio/streamz/testing"
+	streamz "github.com/zoobz-io/streamz"
+	testinghelpers "github.com/zoobz-io/streamz/testing"
 )
 
 // TestBatcher_FanInBatcherFanOut tests that Batcher works correctly in complex pipelines,

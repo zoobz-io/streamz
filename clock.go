@@ -2,7 +2,7 @@
 // including time-related operations for deterministic testing.
 package streamz
 
-import "github.com/zoobzio/clockz"
+import "github.com/zoobz-io/clockz"
 
 // Clock provides time operations for deterministic testing.
 type Clock = clockz.Clock

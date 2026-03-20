@@ -24,7 +24,7 @@ Dedupe maintains a cache of recently seen item keys and filters out duplicates w
 import (
     "context"
     "time"
-    "github.com/zoobzio/streamz"
+    "github.com/zoobz-io/streamz"
 )
 
 // Deduplicate by ID with 5-minute window

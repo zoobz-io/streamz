@@ -24,7 +24,7 @@ Sliding windows create overlapping views of a stream, with new windows starting 
 import (
     "context"
     "time"
-    "github.com/zoobzio/streamz"
+    "github.com/zoobz-io/streamz"
 )
 
 // 5-minute windows sliding every minute

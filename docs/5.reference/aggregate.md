@@ -28,7 +28,7 @@ Aggregate is essential for:
 import (
     "context"
     "time"
-    "github.com/zoobzio/streamz"
+    "github.com/zoobz-io/streamz"
 )
 
 // Sum values in 1-minute windows
