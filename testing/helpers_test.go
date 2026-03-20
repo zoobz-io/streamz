@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	streamz "github.com/zoobzio/streamz"
+	streamz "github.com/zoobz-io/streamz"
 )
 
 func TestCollectResultsWithTimeout(t *testing.T) {

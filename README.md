@@ -1,13 +1,13 @@
 # streamz
 
-[![CI Status](https://github.com/zoobzio/streamz/workflows/CI/badge.svg)](https://github.com/zoobzio/streamz/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/zoobzio/streamz/graph/badge.svg?branch=main)](https://codecov.io/gh/zoobzio/streamz)
-[![Go Report Card](https://goreportcard.com/badge/github.com/zoobzio/streamz)](https://goreportcard.com/report/github.com/zoobzio/streamz)
-[![CodeQL](https://github.com/zoobzio/streamz/workflows/CodeQL/badge.svg)](https://github.com/zoobzio/streamz/security/code-scanning)
-[![Go Reference](https://pkg.go.dev/badge/github.com/zoobzio/streamz.svg)](https://pkg.go.dev/github.com/zoobzio/streamz)
-[![License](https://img.shields.io/github/license/zoobzio/streamz)](LICENSE)
-[![Go Version](https://img.shields.io/github/go-mod/go-version/zoobzio/streamz)](go.mod)
-[![Release](https://img.shields.io/github/v/release/zoobzio/streamz)](https://github.com/zoobzio/streamz/releases)
+[![CI Status](https://github.com/zoobz-io/streamz/workflows/CI/badge.svg)](https://github.com/zoobz-io/streamz/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/zoobz-io/streamz/graph/badge.svg?branch=main)](https://codecov.io/gh/zoobz-io/streamz)
+[![Go Report Card](https://goreportcard.com/badge/github.com/zoobz-io/streamz)](https://goreportcard.com/report/github.com/zoobz-io/streamz)
+[![CodeQL](https://github.com/zoobz-io/streamz/workflows/CodeQL/badge.svg)](https://github.com/zoobz-io/streamz/security/code-scanning)
+[![Go Reference](https://pkg.go.dev/badge/github.com/zoobz-io/streamz.svg)](https://pkg.go.dev/github.com/zoobz-io/streamz)
+[![License](https://img.shields.io/github/license/zoobz-io/streamz)](LICENSE)
+[![Go Version](https://img.shields.io/github/go-mod/go-version/zoobz-io/streamz)](go.mod)
+[![Release](https://img.shields.io/github/v/release/zoobz-io/streamz)](https://github.com/zoobz-io/streamz/releases)
 
 Type-safe stream processing primitives for Go channels.
 
@@ -59,7 +59,7 @@ One interface. One channel. Every pattern.
 ## Install
 
 ```bash
-go get github.com/zoobzio/streamz
+go get github.com/zoobz-io/streamz
 ```
 
 Requires Go 1.24+.
@@ -74,7 +74,7 @@ import (
     "fmt"
     "time"
 
-    "github.com/zoobzio/streamz"
+    "github.com/zoobz-io/streamz"
 )
 
 type Order struct {
@@ -134,7 +134,7 @@ func main() {
 - **Unified errors** — `Result[T]` eliminates dual-channel complexity
 - **Deterministic testing** — Clock abstraction enables reproducible time-based tests
 - **Production ready** — Proper channel lifecycle, no goroutine leaks
-- **Minimal dependencies** — Standard library plus [clockz](https://github.com/zoobzio/clockz)
+- **Minimal dependencies** — Standard library plus [clockz](https://github.com/zoobz-io/clockz)
 
 ## Composable Stream Architecture
 
@@ -156,7 +156,7 @@ realtime := mapper.Process(ctx, filter.Process(ctx, orders))
 batched := throttle.Process(ctx, batch.Process(ctx, enrich.Process(ctx, validate.Process(ctx, orders))))
 ```
 
-Time-dependent processors use [clockz](https://github.com/zoobzio/clockz) for deterministic testing — advance time explicitly, verify behavior reproducibly.
+Time-dependent processors use [clockz](https://github.com/zoobz-io/clockz) for deterministic testing — advance time explicitly, verify behavior reproducibly.
 
 ## Documentation
 

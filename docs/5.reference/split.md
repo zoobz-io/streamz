@@ -27,7 +27,7 @@ Split is simpler than Router when you need binary classification and is more exp
 ```go
 import (
     "context"
-    "github.com/zoobzio/streamz"
+    "github.com/zoobz-io/streamz"
 )
 
 // Split orders into high/low value

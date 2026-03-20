@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zoobzio/clockz"
+	"github.com/zoobz-io/clockz"
 )
 
 func TestTumblingWindow_BasicOperation(t *testing.T) {

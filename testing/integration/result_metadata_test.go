@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zoobzio/streamz"
+	"github.com/zoobz-io/streamz"
 )
 
 // Test Result with metadata field - proving viability.

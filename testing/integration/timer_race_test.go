@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zoobzio/clockz"
+	"github.com/zoobz-io/clockz"
 
-	"github.com/zoobzio/streamz"
+	"github.com/zoobz-io/streamz"
 )
 
 // TestTimerRaceConditions demonstrates the race condition between

@@ -23,7 +23,7 @@ Chunk collects items into arrays of a specified size. When the chunk size is rea
 ```go
 import (
     "context"
-    "github.com/zoobzio/streamz"
+    "github.com/zoobz-io/streamz"
 )
 
 // Group items into chunks of 10

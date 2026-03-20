@@ -24,7 +24,7 @@ Session windows are ideal for grouping events that occur in bursts with quiet pe
 import (
     "context"
     "time"
-    "github.com/zoobzio/streamz"
+    "github.com/zoobz-io/streamz"
 )
 
 // Create sessions with 5-minute inactivity timeout

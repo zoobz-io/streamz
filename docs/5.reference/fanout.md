@@ -23,7 +23,7 @@ FanOut creates multiple identical copies of a stream, allowing you to process th
 ```go
 import (
     "context"
-    "github.com/zoobzio/streamz"
+    "github.com/zoobz-io/streamz"
 )
 
 // Create 3 copies of the stream

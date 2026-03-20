@@ -23,7 +23,7 @@ Unbatcher takes a stream of slices/batches and emits each item individually. Thi
 ```go
 import (
     "context"
-    "github.com/zoobzio/streamz"
+    "github.com/zoobz-io/streamz"
 )
 
 // Convert batches back to individual items

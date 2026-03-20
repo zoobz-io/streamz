@@ -24,7 +24,7 @@ Dropping Buffer maintains a fixed-size buffer that automatically drops the oldes
 ```go
 import (
     "context"
-    "github.com/zoobzio/streamz"
+    "github.com/zoobz-io/streamz"
 )
 
 // Create a dropping buffer that keeps the latest 100 items

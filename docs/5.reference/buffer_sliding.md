@@ -24,7 +24,7 @@ Sliding Buffer keeps a fixed-size window of the most recent items. When new item
 ```go
 import (
     "context"
-    "github.com/zoobzio/streamz"
+    "github.com/zoobz-io/streamz"
 )
 
 // Keep a sliding window of the last 100 items

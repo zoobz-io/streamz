@@ -23,7 +23,7 @@ Flatten is the inverse of batching operations. It takes a stream where each item
 ```go
 import (
     "context"
-    "github.com/zoobzio/streamz"
+    "github.com/zoobz-io/streamz"
 )
 
 // Flatten batches into individual items

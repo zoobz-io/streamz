@@ -23,7 +23,7 @@ Take is useful when you need only a specific number of items from a potentially 
 ```go
 import (
     "context"
-    "github.com/zoobzio/streamz"
+    "github.com/zoobz-io/streamz"
 )
 
 // Take first 10 items

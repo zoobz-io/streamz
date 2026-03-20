@@ -28,7 +28,7 @@ Partitioning is essential for:
 import (
     "context"
     "sync"
-    "github.com/zoobzio/streamz"
+    "github.com/zoobz-io/streamz"
 )
 
 // Partition orders by customer ID
