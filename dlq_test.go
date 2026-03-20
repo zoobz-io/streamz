@@ -3,6 +3,7 @@ package streamz
 import (
 	"context"
 	"errors"
+	"runtime"
 	"sync"
 	"testing"
 	"time"
@@ -640,6 +641,10 @@ func TestDeadLetterQueue_DeterministicTimeoutSuccessChannel(t *testing.T) {
 	input <- NewSuccess(1)
 	close(input)
 
+	// Allow the distribute goroutine to reach the select and register the timer
+	runtime.Gosched()
+	time.Sleep(time.Millisecond)
+
 	// Advance time past the timeout threshold
 	clock.Advance(15 * time.Millisecond) // Well past 10ms timeout
 	clock.BlockUntilReady()
@@ -670,6 +675,10 @@ func TestDeadLetterQueue_DeterministicTimeoutFailureChannel(t *testing.T) {
 	// Send an item that will block because no one is consuming failures
 	input <- NewError(1, errors.New("error1"), "test")
 	close(input)
+
+	// Allow the distribute goroutine to reach the select and register the timer
+	runtime.Gosched()
+	time.Sleep(time.Millisecond)
 
 	// Advance time past the timeout threshold
 	clock.Advance(15 * time.Millisecond) // Well past 10ms timeout
